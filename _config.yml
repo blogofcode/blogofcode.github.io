@@ -1,10 +1,10 @@
 # Site settings
-title:       AkSaRa
-email:       dravid.rahul1526@gmail.com
+title:       BLOG OF CODES
+email:       blogofcode@gmail.com
 author:      A SAI RAHUL
 description: "My Blog"
 baseurl:     ""
-url:         "https://sairahul1526.github.io"
+url:         "http://www.blogofcodes.com"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -45,7 +45,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: sairahul1526
+github_username: blogofcode
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -110,7 +110,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     5
+paginate:     10
 sass:
   compressed: true
 gems:
