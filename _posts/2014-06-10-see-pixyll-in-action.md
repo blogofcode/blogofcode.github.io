@@ -23,8 +23,8 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
-{% highlight ruby lineanchors %}
-# The most awesome of classes
+{% highlight java lineanchors %}
+# The most awesomeeee of classes
 class Awesome < ActiveRecord::Base
   include EvenMoreAwesome
 
@@ -67,7 +67,7 @@ module.exports = function doStuff(things) {
 
 Here's some HTML:
 
-{% highlight html %}
+{% highlight xml %}
 <div class="m0 p0 bg-blue white">
   <h3 class="h1">Hello, world!</h3>
 </div>
