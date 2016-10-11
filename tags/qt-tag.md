@@ -1,7 +1,7 @@
 ---
 layout: tag
 title: Posts with tag Qt
-tag: qt
-permalink: /tags/qt/
+tag: qt-tag
+permalink: /tags/qt-tag/
 sitemap: false
 ---
