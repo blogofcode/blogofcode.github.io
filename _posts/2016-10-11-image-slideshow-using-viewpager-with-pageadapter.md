@@ -7,7 +7,7 @@ categories: jekyll pixyll
 author:     A SAI RAHUL
 permalink:  /image-slideshow-using-viewpager-with-pageadapter/
 tags:
-  - android
+  - android-tag
 ---
 
 In this we are going to make a beautiful image slideshow using viewpager. For that first we need to setup the `MainActivity` in which you want to include the image slideshow.
