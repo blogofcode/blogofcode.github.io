@@ -1,14 +1,16 @@
-android:
-  name: Android
+android-app:
+  name: Android App Devlopement
 arduino:
   name: Arduino
-ios:
-  name: iOS
+ios-app:
+  name: iOS App Development
 game:
-  name: Game
+  name: Game Development
+gamesalad:
+  name: Gamesalad
 qt:
   name: Qt
 software:
-  name: Software
+  name: Software Development
 unity:
   name: Unity
