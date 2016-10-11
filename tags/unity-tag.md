@@ -1,7 +1,7 @@
 ---
 layout: tag
 title: Posts with tag Unity
-tag: unity
-permalink: /tags/unity/
+tag: unity-tag
+permalink: /tags/unity-tag/
 sitemap: false
 ---
