@@ -7,8 +7,7 @@ categories: jekyll pixyll
 author:     BHARDADWAJ SHARMA
 permalink:  /see-what-the-difference-elements-looks-like-your-markdown-has-never-looked-better-i-promise/
 tags:
-  - csharp
-  - ci-cd
+  - android
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
