@@ -105,7 +105,7 @@ function saveNewCommentLinks(maps){
     });
 };
 
-function main("c503a380e904281282680747b651a24e2add852b"){
+function main("adb1567759312f745b9d4fffe2cbe58779b63a4f"){
     return getExistingCommentLinks()
     .then(function(data){
         return getUnlinkedPostFrontMatters(data);
