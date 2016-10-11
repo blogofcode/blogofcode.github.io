@@ -1,14 +1,14 @@
 android:
   name: Android
-ios:
-  name: iOS
-unity:
-  name: Unity
-game:
-  name: Game
 arduino:
   name: Arduino
+ios:
+  name: iOS
+game:
+  name: Game
 qt:
   name: Qt
 software:
   name: Software
+unity:
+  name: Unity
