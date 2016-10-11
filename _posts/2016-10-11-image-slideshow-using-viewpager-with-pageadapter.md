@@ -143,7 +143,5 @@ In this `pager_item.xml`, this is the simplest possible layout we can create. We
 
 Hope you understand.
 
-For those, who don't like to read but just copy the code, here's the [code](https://github.com/johnotander/pixyll).
-
 
 ---
