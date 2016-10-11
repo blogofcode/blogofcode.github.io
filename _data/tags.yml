@@ -1,16 +1,16 @@
-android-app:
-  name: Android App Devlopement
-arduino:
+android-tag:
+  name: Android
+arduino-tag:
   name: Arduino
-ios-app:
-  name: iOS App Development
-game:
-  name: Game Development
-gamesalad:
+ios-tag:
+  name: iOS
+game-tag:
+  name: Game
+gamesalad-tag:
   name: Gamesalad
-qt:
+qt-tag:
   name: Qt
-software:
-  name: Software Development
-unity:
+software-tag:
+  name: Software
+unity-tag:
   name: Unity
