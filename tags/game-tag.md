@@ -1,7 +1,7 @@
 ---
 layout: tag
 title: Posts with tag Game
-tag: game
-permalink: /tags/game/
+tag: game-tag
+permalink: /tags/game-tag/
 sitemap: false
 ---
