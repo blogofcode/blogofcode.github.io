@@ -4,13 +4,11 @@ title:      Image Slideshow using ViewPager with PagerAdapter
 date:       2016-10-11 12:31:19
 summary:    Perhaps you’ve seen some of the new user interface features available as part of the Android compatibility package. One such feature, image slideshow(horizontal view paging), allows for easy left and right swipes to load different screens (pages), controlled by a single Activity. This feature has been showcased in several high profile applications like the Android Market application and the Google+ Android client.
 categories: jekyll pixyll
-author:     BHARDADWAJ SHARMA
+author:     A SAI RAHUL
 permalink:  /image-slideshow-using-viewpager-with-pageadapter/
 tags:
   - android
 ---
-
-![desk](https://github.com/blogofcode/blogofcode.github.io/blob/master/images/image-slideshow-using-viewpager-with-pageadapter/image_slideshow1.gif?)
 
 In this we are going to make a beautiful image slideshow using viewpager. For that first we need to setup the `MainActivity` in which you want to include the image slideshow.
 
