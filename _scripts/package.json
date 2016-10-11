@@ -1,11 +1,11 @@
 {
-  "author": "A SAI RAHUL (https://sairahul1526.github.io)",
-  "name": "sairahul1526.github.io",
+  "author": "A SAI RAHUL (http://www.blogofcodes.com)",
+  "name": "blogofcode.github.io",
   "description": "Build script to generate tags and archive pages for Jekyll site hosted in GitHub Pages",
-  "homepage": "https://sairahul1526.github.io",
+  "homepage": "http://www.blogofcodes.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sairahul1526/sairahul1526.github.io.git"
+    "url": "https://github.com/blogofcode/blogofcode.github.io.git"
   },
   "dependencies": {
 
