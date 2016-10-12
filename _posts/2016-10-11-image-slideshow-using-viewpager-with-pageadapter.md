@@ -39,7 +39,7 @@ Firstly, we need to have a `ViewPager` element in our `MainActivity` file locate
 </RelativeLayout>
 {% endhighlight %}
 
-Here I setup height of 150dp, if you want to fill the entire layout, update `android:layout_height="match_parent"` to `android:layout_height="match_parent"`.
+Here I setup height of 150dp, if you want to fill the entire layout, update `android:layout_height="150dp"` to `android:layout_height="match_parent"`.
 
 ### Binding PagerAdapter to ViewPager
 
