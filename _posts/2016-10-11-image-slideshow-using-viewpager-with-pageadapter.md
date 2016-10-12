@@ -16,7 +16,7 @@ In this we are going to make a beautiful image slideshow using viewpager. For th
 
 Firstly, we need to have a `ViewPager` element in our `MainActivity` file located at `res/layout/content_main.xml`
 
-`content_main.xml`:
+In `content_main.xml`:
 {% highlight xml %}
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -45,7 +45,7 @@ Here I setup height of 150dp, if you want to fill the entire layout, update `and
 
 Next, in our `onCreate()` Activity method, we'll instantiate our custom `PagerAdapter` implementation and bind it to our `ViewPager` object.
 
-`MainActivity`:
+In `MainActivity`:
 {% highlight java %}
 CustomPagerAdapter customPagerAdapter = new CustomPagerAdapter(this, resources);
 
@@ -57,7 +57,7 @@ viewPager.setAdapter(customPagerAdapter);
 
 In our Activity, we'll have a images instance variable that'll have an array of drawable resource IDs.
 
-`MainActivity`
+In `MainActivity`:
 {% highlight java %}
 int[] resources = {
         R.drawable.one,
@@ -67,13 +67,13 @@ int[] resources = {
 };
 {% endhighlight %}
 
-Before this, I copied images named`one.jpg`, `two.jpg`, `three.jpg`, `four.jpg` to `res/drawable/`. Then I have these images' resource IDs in mResources array, each one as `R.drawable.` name of image.
+Before this, I copied images named`one.jpg`, `two.jpg`, `three.jpg`, `four.jpg` to `res/drawable/`. Then I have these images' resource IDs in resources array, each one as `R.drawable.` name of image.
 
 ### Custom PagerAdapter
 
 Finally, it's time to write our custom pager adapter implementation that'll populate the content pages within our `ViewPager`.
 
-`CustomPagerAdapter`:
+In `CustomPagerAdapter`:
 {% highlight java %}
 class CustomPagerAdapter extends PagerAdapter {
  
@@ -125,7 +125,7 @@ class CustomPagerAdapter extends PagerAdapter {
 
 Here's how `res/layout/pager_item.xml` will look like which is inflated in the `CustomPagerAdapter` class.
 
-`pager_item.xml`:
+In `pager_item.xml`:
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
  
