@@ -47,10 +47,10 @@ Next, in our `onCreate()` Activity method, we'll instantiate our custom `PagerAd
 
 `MainActivity`:
 {% highlight java %}
-CustomPagerAdapter mCustomPagerAdapter = new CustomPagerAdapter(this, mResources);
+CustomPagerAdapter customPagerAdapter = new CustomPagerAdapter(this, resources);
 
-ViewPager mViewPager = (ViewPager) findViewById(R.id.viewpager);
-mViewPager.setAdapter(mCustomPagerAdapter);
+ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+viewPager.setAdapter(customPagerAdapter);
 {% endhighlight %}
 
 ### Image Drawable Resources
@@ -59,7 +59,7 @@ In our Activity, we'll have a images instance variable that'll have an array of 
 
 `MainActivity`
 {% highlight java %}
-int[] mResources = {
+int[] resources = {
         R.drawable.one,
         R.drawable.two,
         R.drawable.three,
@@ -77,17 +77,19 @@ Finally, it's time to write our custom pager adapter implementation that'll popu
 {% highlight java %}
 class CustomPagerAdapter extends PagerAdapter {
  
-    Context mContext;
-    LayoutInflater mLayoutInflater;
+    Context context;
+    LayoutInflater layoutInflater;
+    int[] resources = {};
  
-    public CustomPagerAdapter(Context context) {
-        mContext = context;
-        mLayoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    public CustomPagerAdapter(Context context, int[] resources) {
+        this.context = context;
+        this.layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        this.resources = resources;
     }
  
     @Override
     public int getCount() {
-        return mResources.length;
+        return resources.length;
     }
  
     @Override
@@ -97,10 +99,10 @@ class CustomPagerAdapter extends PagerAdapter {
  
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        View itemView = mLayoutInflater.inflate(R.layout.pager_item, container, false);
+        View itemView = layoutInflater.inflate(R.layout.pager_item, container, false);
  
         ImageView imageView = (ImageView) itemView.findViewById(R.id.imageView);
-        imageView.setImageResource(mResources[position]);
+        imageView.setImageResource(resources[position]);
  
         container.addView(itemView);
  
