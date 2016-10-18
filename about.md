@@ -18,3 +18,21 @@ I don't like to limit myself to developing with particular tools or technologies
 I love leveraging build tools and automating every process I can. I enjoy experimenting with new technology and incorporating it into my workflow when appropriate. I <3 open source and find great value in metrics, especially in terms of performance.
 
 I also like painting and music. A lot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
