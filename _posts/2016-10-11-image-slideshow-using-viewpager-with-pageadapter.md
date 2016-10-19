@@ -10,6 +10,8 @@ tags:
   - android-tag
 ---
 
+![desk](https://cdn.rawgit.com/blogofcode/blogofcode.github.io/master/images/image-slideshow-using-viewpager-with-pageadapter/image_slideshow1.gif)
+
 In this we are going to make a beautiful image slideshow using viewpager. For that first we need to setup the `MainActivity` in which you want to include the image slideshow.
 
 ### Setting Up ViewPager
