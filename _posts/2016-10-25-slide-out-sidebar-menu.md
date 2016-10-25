@@ -69,7 +69,7 @@ Cool! Let’s compile and run the app in the simulator. Tap the menu button and 
 ### Handling Menu Item Selection
 
 Go back to storyboard. Select one tableviewcell and drag to the navigation controller of the view you want to reveal when that tableviewcell is clicked. Then, select `reveal view controller push controller` segue under selection segue. Do the same thing to all the view controllers' navigation view controllers.
-    * Insert the above lines of code in all the view controllers you added to the menubar.
+    Insert the above lines of code in all the view controllers you added to the menubar.
 
 You can customize the menu by adding the following line of code to the front view controller:
 
