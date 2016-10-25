@@ -10,23 +10,23 @@ tags:
   - android-tag
 ---
 
-<!-- ![desk](https://github.com/blogofcode/blogofcode.github.io/blob/master/images/image-slideshow-using-viewpager-with-pageadapter/image_slideshow1.gif?raw=true) -->
+![desk](https://raw.githubusercontent.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Simulator%20Screen%20Shot%20Oct%2025%2C%202016%2C%2010.31.12%20PM.png)
 
 In this article, we are going to create a slide-out navigation menu similar to the one you find in Facebook, Inbox, Digg, LinkedIn, etc. (Image Below). For that first we need to setup the `MainActivity` in which you want to include the image slideshow. Here we make use of an open source library `SWRevealViewController` to create sidebar menu.
 
 ### Using `SWRevealViewController` Library
 
 Firstly, we need to [download the library from Github](https://codeload.github.com/John-Lluch/SWRevealViewController/zip/master). In the downloaded folder, you find two files: `SWRevealViewController.h` and `SWRevealViewController.m`. Add these two files by dragging them onto the Xcode project. As soon as you confirm to add the files, Xcode promts you to configure an Objective-C brindging header, by which you'll be able to access the Objective-C code from Swift. So click Yes to procedd.
-image1
-image2
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.39.54%20PM.png)
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.39.58%20PM.png)
 Xcode genrates a header file named `projectname-Bridging-Header.h`. Open `projectname-Bridging-Header.h` file and add the followinf line to access the library in swift files.
 
 `projectname-Bridging-Header.h`:
 {% highlight objc %}
-
 #import "SWRevealViewController.h"
-
 {% endhighlight %}
+
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.47.35%20PM.png)
 
 ### Front and Rear View Controllers
 
@@ -36,12 +36,19 @@ Next, in our `onCreate()` Activity method, we'll instantiate our custom `PagerAd
 
 In storyboard, first select the empty view controller and change the class to `SWRevealViewController`.
 
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.47.50%20PM.png)
+
 Next, control-drag from `SWRevealViewController` to the Menu View controller. After releasing the button, you will see a context menu for segue selection. I this case, select `reveal view controller set segue`. Then, select the segie and change its identifier to `sw_rear` under the Identity inspector on the right. This defines the side menubar.
     * Side menu bar which contains tableview(you can design the tableviewcell as you like) should be populated statically all by yourself.
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.51.34%20PM.png)
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.53.06%20PM.png)
 
 Next, repeat the same procedure to connect `SWRevealViewController` with navigation controller of the news view controller. Again, select `reveal view controller set segue` when prompted and change the segue identifier to `sw_front`. This tells that navigation controller is the front view controller.
     * Front view controller should be the one you wish to see first. Go to `Editor->Embed In` ans select `Navigation Controller` to create navigation controller to the front view.
     * Add the menubar button to the left side of navigation bar.
+    
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.55.52%20PM.png)
+![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.55.59%20PM.png)
 
 ### Slide View Gesture Recognizer
 
