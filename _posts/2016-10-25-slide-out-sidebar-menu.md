@@ -30,8 +30,8 @@ Xcode genrates a header file named `projectname-Bridging-Header.h`. Open `projec
 
 ### Front and Rear View Controllers
 
-    * The front view controller is the main controller for displaying content.
-    * The rear view controller is the controller that shows the navigation menu.
+   The front view controller is the main controller for displaying content.
+   The rear view controller is the controller that shows the navigation menu.
 Next, in our `onCreate()` Activity method, we'll instantiate our custom `PagerAdapter` implementation and bind it to our `ViewPager` object.
 
 In storyboard, first select the empty view controller and change the class to `SWRevealViewController`.
@@ -39,13 +39,13 @@ In storyboard, first select the empty view controller and change the class to `S
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.47.50%20PM.png)
 
 Next, control-drag from `SWRevealViewController` to the Menu View controller. After releasing the button, you will see a context menu for segue selection. I this case, select `reveal view controller set segue`. Then, select the segie and change its identifier to `sw_rear` under the Identity inspector on the right. This defines the side menubar.
-    * Side menu bar which contains tableview(you can design the tableviewcell as you like) should be populated statically all by yourself.
+    Side menu bar which contains tableview(you can design the tableviewcell as you like) should be populated statically all by yourself.
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.51.34%20PM.png)
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.53.06%20PM.png)
 
 Next, repeat the same procedure to connect `SWRevealViewController` with navigation controller of the news view controller. Again, select `reveal view controller set segue` when prompted and change the segue identifier to `sw_front`. This tells that navigation controller is the front view controller.
-    * Front view controller should be the one you wish to see first. Go to `Editor->Embed In` ans select `Navigation Controller` to create navigation controller to the front view.
-    * Add the menubar button to the left side of navigation bar.
+    Front view controller should be the one you wish to see first. Go to `Editor->Embed In` ans select `Navigation Controller` to create navigation controller to the front view.
+    Add the menubar button to the left side of navigation bar.
     
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.55.52%20PM.png)
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Screen%20Shot%202016-10-25%20at%2010.55.59%20PM.png)
@@ -79,9 +79,7 @@ self.revealViewController().rearViewRevealWidth = 62
 
 If you run the app, you’ll have a sidebar menu like the one below. You can look into the SWRevealViewController.h file to explore the customizable options.
 
-Hope you understand.
-
-For those, who don't like to read but just copy the code, here's the [code](https://github.com/johnotander/pixyll).
+Hope this helps.
 
 
 ---
