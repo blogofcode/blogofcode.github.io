@@ -7,7 +7,7 @@ categories: jekyll pixyll
 author:     A SAI RAHUL
 permalink:  /slide-out-slidebar-menu/
 tags:
-  - android
+  - android-tag
 ---
 
 <!-- ![desk](https://github.com/blogofcode/blogofcode.github.io/blob/master/images/image-slideshow-using-viewpager-with-pageadapter/image_slideshow1.gif?raw=true) -->
