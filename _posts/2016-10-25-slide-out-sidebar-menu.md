@@ -7,7 +7,7 @@ categories: jekyll pixyll
 author:     A SAI RAHUL
 permalink:  /slide-out-slidebar-menu/
 tags:
-  - android-tag
+  - ios-tag
 ---
 
 ![desk](https://raw.githubusercontent.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Simulator%20Screen%20Shot%20Oct%2025%2C%202016%2C%2010.31.12%20PM.png)
