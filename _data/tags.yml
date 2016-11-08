@@ -8,7 +8,7 @@ game-tag:
   name: Game
 gamesalad-tag:
   name: Gamesalad
-github:
+github-tag:
   name: Github
 qt-tag:
   name: Qt
