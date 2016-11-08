@@ -17,10 +17,10 @@ I chose `Pixyll` because it is simple to use, has beautiful user interface and i
 
 ### SETTING UP
 
-    * Open [Pixyll](https://github.com/johnotander/pixyll) and Fork the repo, and then clone it so you've got the code locally.(on top-right).
-    * After it has been forked, got to `Settings` on top navigation bar.
-    * Change the `Repository name` to `your-github-username.github.io` and click rename.
-    * Go to url `https://your-github-username.github.io`.
+   * Open [Pixyll](https://github.com/johnotander/pixyll) and Fork the repo, and then clone it so you've got the code locally.(on top-right).
+   * After it has been forked, got to `Settings` on top navigation bar.
+   * Change the `Repository name` to `your-github-username.github.io` and click rename.
+   * Go to url `https://your-github-username.github.io`.
 
 There you go, you created your static blog.
 
@@ -43,19 +43,19 @@ The `_config.yml` located in the root of the Pixyll directory contains all of th
     paginate: 3
 {% endhighlight %}
 
-    * pagination: number of blog posts you want to display on single page.
-    * title: blog_name
-    * email: your_email@example.com
-    * author: your name
-    * description: "describe your blog"
-    * url: "http://your-github-username.github.io"
+   * pagination: number of blog posts you want to display on single page.
+   * title: blog_name
+   * email: your_email@example.com
+   * author: your name
+   * description: "describe your blog"
+   * url: "http://your-github-username.github.io"
 
 You can check furthur options in the same file.
 
-    * date_format
-    * show_related_posts
-    * show_post_footers
-    * show_social_icons etc,.
+   * date_format
+   * show_related_posts
+   * show_post_footers
+   * show_social_icons etc,.
 
 You can also link your social account to the blog by simply compyting the usernames to respective usernames under `
 # Social icons` in the same file.
@@ -64,11 +64,11 @@ You can also link your social account to the blog by simply compyting the userna
 
 By default, there are no comments added to each blog post.
 
-    * Got to [Facebook Developers](https://developers.facebook.com/apps/). Create an account, if you don't have one.
-    * Add new app by clicking `Add a New App`.
-    * Fill all the details, such as `Display Name`, `Contact Email, and choose `Category` and click `Create App ID`
-    * Go to Dashboard and copy `App ID`.
-    * Paste it in the `_config.yml` file beside facebook_appid as:
+   * Got to [Facebook Developers](https://developers.facebook.com/apps/). Create an account, if you don't have one.
+   * Add new app by clicking `Add a New App`.
+   * Fill all the details, such as `Display Name`, `Contact Email, and choose `Category` and click `Create App ID`
+   * Go to Dashboard and copy `App ID`.
+   * Paste it in the `_config.yml` file beside facebook_appid as:
 
 {% highlight markdown %}
     # Facebook Comments plugin
