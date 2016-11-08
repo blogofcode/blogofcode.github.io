@@ -78,16 +78,10 @@ By default, there are no comments added to each blog post.
     facebook_comments_number: 10
 {% endhighlight %}
 
-    * Make sure `facebook_comments` is true and set the number of comments you want to display on each blog post.
+   * Make sure `facebook_comments` is true and set the number of comments you want to display on each blog post.
 
 
 Happy blogging!
 
 
 ---
-
-
-
-
-
-
