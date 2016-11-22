@@ -90,7 +90,7 @@ A Set of React Components that Implement Google's Material Design
 
 This framework depends on `React`. So if you are familiar with `React` go ahead with this framework, if not I recommend you to use above two or you get to know [React](https://facebook.github.io/react/) before diving into Material-UI. Material-UI is a set of React components, so understanding how React fits into web development is important.
 
-I would discussing `Material-UI` along with basics of `React` in the future posts. 
+I would be discussing `Material-UI` along with basics of `React` in the future posts. 
 
 Hope this helps you to build beautiful UI.
 
