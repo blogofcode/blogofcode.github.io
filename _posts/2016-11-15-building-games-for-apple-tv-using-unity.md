@@ -36,6 +36,8 @@ Next, we focus GUI item by adding `Event System` to Main Camera or Main Object i
 * Add Component in the Inspector and select `Event System`.
 * In the `First Selected` in the Event System(Script), add the GUI item you wish have focus on.
 
+Or we can add Event System by going to `GameObject` in the menu bar.
+
 ![desk](https://rawgit.com/blogofcode/blogofcode.github.io/master/images/building-games-for-apple-tv-using-unity/Screen%20Shot%202016-11-15%20at%2011.24.55%20PM.png)
 
 * Then click `Add Default Input Modules` in the same Event System(Script).
