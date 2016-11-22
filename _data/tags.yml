@@ -16,3 +16,5 @@ software-tag:
   name: Software
 unity-tag:
   name: Unity
+web-tag:
+  name: Web Development
