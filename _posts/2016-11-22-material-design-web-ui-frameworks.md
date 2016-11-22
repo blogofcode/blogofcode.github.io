@@ -10,8 +10,6 @@ tags:
   - web-tag
 ---
 
-![desk](https://raw.githubusercontent.com/blogofcode/blogofcode.github.io/master/images/slide-out-slidebar-menu/Simulator%20Screen%20Shot%20Oct%2025%2C%202016%2C%2010.31.12%20PM.png)
-
 In this post, I would be doing a roundup of some of the third-party(not from Google) Material Design Web UIframeworks that bring Material design to the Web user interface.
 
 Here I would just be discussing how to get started with these frameworks and you can further go deep with their components, templates, etc,.
