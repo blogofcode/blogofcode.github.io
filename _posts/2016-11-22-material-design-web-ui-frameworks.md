@@ -81,7 +81,7 @@ And using `Button` component as follows:
 </html>
 {% endhighlight %}
 
-You can further explore their [docs](http://materializecss.com/buttons.html).
+You can further explore their docs [here](http://materializecss.com/buttons.html).
 
 
 ### [Material-UI](http://www.material-ui.com/#/)
