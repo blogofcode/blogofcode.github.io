@@ -12,7 +12,7 @@ tags:
 
 In this small blog post, we use Github Pages `Jekyll` theme [Pixyll](https://github.com/johnotander/pixyll) for creating blog. Or if you want to create your portfolio, include all the projects you have done, all the softwares and laguages you know etc,. check this [link](http://raman.ch/#/) and [Github repo](https://github.com/ramancodians/ramancodians.github.io)
 There are many beautiful themes. Check out these links to select the theme that suits your need.
-[Jekyll](https://github.com/jekyll/jekyll/wiki/themes), [Jekyll](http://jekyllthemes.org), [Jekyll](https://jekyllthemes.io), [Jekyll](http://themes.jekyllrc.org).
+[https://github.com/jekyll/jekyll/wiki/themes](https://github.com/jekyll/jekyll/wiki/themes), [http://jekyllthemes.org](http://jekyllthemes.org), [http://themes.jekyllrc.org](http://themes.jekyllrc.org), [https://jekyllthemes.io](https://jekyllthemes.io).
 I chose `Pixyll` because it is simple to use, has beautiful user interface and is mobile first and I personaly think is the beast theme for coding blogs. [Blog of Code](http://www.blogofcodes.com) is also made using this theme.
 
 ### SETTING UP
