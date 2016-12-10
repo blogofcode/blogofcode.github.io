@@ -9,7 +9,7 @@ Blog of Codes is the Website for beginners to learn Android & iOS app developemn
 
 # About Developer
 
-Hello, my name is A SAI RAHUL.
+Hey, my name is Rahul.
 
 I'm a programmer who loves latest technologies. I love to develop mobile apps, games, softwares and explore more. 
 
