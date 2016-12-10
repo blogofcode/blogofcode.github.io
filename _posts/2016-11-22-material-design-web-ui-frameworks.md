@@ -14,9 +14,9 @@ In this post, I would be doing a roundup of some of the third-party(not from Goo
 
 Here I would just be discussing how to get started with these frameworks and you can further go deep with their components, templates, etc,.
 
-### [Material Design Lite](https://getmdl.io)
+### Material Design Lite
 
-Material Design Lite lets you add a Material Design look and feel to your websites. It doesn’t rely on any JavaScript frameworks and aims to optimize for cross-device use, gracefully degrade in older browsers, and offer an experience that is immediately accessible.
+[Material Design Lite](https://getmdl.io) lets you add a Material Design look and feel to your websites. It doesn’t rely on any JavaScript frameworks and aims to optimize for cross-device use, gracefully degrade in older browsers, and offer an experience that is immediately accessible.
 
 Just add the following `<link>` and `<script>` elements into your HTML pages (27kB gzipped):
 
@@ -48,9 +48,9 @@ And using `Button` component as follows:
 
 You can get to their [docs](https://getmdl.io/components/index.html) and explore further.
 
-### [Materialize](http://materializecss.com)
+### Materialize
 
-Materialize is a modern responsive front-end framework based on Material Design. For use in your web projects, it provides an option of both CSS as well as source SCSS files, along with JavaScript, material design icons and Roboto font. Included components are basic ones such as grids, forms, buttons, navbar and cards. Materialize is available on [GitHub](https://github.com/Dogfalo/materialize) as well.
+[Materialize](http://materializecss.com) is a modern responsive front-end framework based on Material Design. For use in your web projects, it provides an option of both CSS as well as source SCSS files, along with JavaScript, material design icons and Roboto font. Included components are basic ones such as grids, forms, buttons, navbar and cards. Materialize is available on [GitHub](https://github.com/Dogfalo/materialize) as well.
 
 Same as above, just add the following `<link>` and `<script>` elements into your HTML pages:
 
@@ -84,11 +84,11 @@ And using `Button` component as follows:
 You can further explore their docs [here](http://materializecss.com/buttons.html).
 
 
-### [Material-UI](http://www.material-ui.com/#/)
+### Material-UI
 
 A Set of React Components that Implement Google's Material Design
 
-This framework depends on `React`. So if you are familiar with `React` go ahead with this framework, if not I recommend you to use above two or you get to know [React](https://facebook.github.io/react/) before diving into Material-UI. Material-UI is a set of React components, so understanding how React fits into web development is important.
+[Material-UI](http://www.material-ui.com/#/) framework depends on `React`. So if you are familiar with `React` go ahead with this framework, if not I recommend you to use above two or you get to know [React](https://facebook.github.io/react/) before diving into Material-UI. Material-UI is a set of React components, so understanding how React fits into web development is important.
 
 I would be discussing `Material-UI` along with basics of `React` in the future posts. 
 
