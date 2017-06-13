@@ -2,14 +2,12 @@
 layout:     post
 title:      Machine Learning - 1
 date:       2017-06-13 12:31:19
-summary:    Learning Algorithms
+summary:    Learning Algorithms - Supervised Learning, Unsupervised Learning & Reinforcement Learning
 author:     A SAI RAHUL
 permalink:  /machine-learning-1/
 tags:
   - machine-learning-tag
 ---
-
-Here I discuss how to set up project for tvOS platform and control GUI item focus.
 
 ### Machine Learning Definition
 
@@ -37,7 +35,11 @@ Eg: Cocktail party problem : given input of two sounds mixed, output these 2 dif
 
 Make sequence of decisions, wrong or bad, over-time learn from them and output a good decision in future.
 
-Will be posting next part.
+
+
+
+
+Will be posting next part soon.
 
 
 
