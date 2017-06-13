@@ -10,6 +10,8 @@ gamesalad-tag:
   name: Gamesalad
 github-tag:
   name: Github
+machine-learning-tag:
+  name: Machine Learning
 qt-tag:
   name: Qt
 software-tag:
